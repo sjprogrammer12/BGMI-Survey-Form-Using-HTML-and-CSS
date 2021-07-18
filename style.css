@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  background: url(/img/pexels-lucie-liz-3165335.jpg), purple no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
