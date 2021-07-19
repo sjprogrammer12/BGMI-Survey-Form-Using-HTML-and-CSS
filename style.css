@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  color: white;
 }
 .container {
   background: url(/img/pexels-lucie-liz-3165335.jpg), purple no-repeat;
@@ -9,4 +10,26 @@
   background-blend-mode: multiply;
   height: 100vh;
   width: 100vw;
+  padding-top: 35px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 50px;
+}
+h1 {
+  font-family: "Bungee", cursive;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+  line-height: 60px;
+  margin: 0px 5px;
+  color: white;
+  -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
 }
