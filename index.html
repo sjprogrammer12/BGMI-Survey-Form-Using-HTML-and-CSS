@@ -11,27 +11,66 @@
       href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
     <title>BGMI Survey Form</title>
   </head>
   <body>
     <div class="container">
       <div class="head">
         <h1>BGMI Survey Form</h1>
-        <p>Fill This form and Get Rewards</p>
+        <p>By SJ Gamer</p>
       </div>
-      <div class="form-cont">
-        <form action="">
-          <label for="f-name"> First Name</label>
-          <label for="l-name"> Last Name</label>
-          <label for="age"> Age</label>
-          <label for="gender"> Gender</label>
-          <label for="Acknoledgement">Are you a professional gamer </label>
-          <label for="t&c"
+      <div class="line"></div>
+      <div class="form-container">
+        <form action="inv.php">
+          <label for="f-name" class="form-element"> First Name</label>
+          <input type="text" name="f-name" id="f-name" class="form-element" />
+          <label for="l-name" class="form-element"> Last Name</label>
+          <input type="text" name="l-name" id="l-name" class="form-element" />
+          <label for="age" class="form-element"> Age</label>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            min="18"
+            max="90"
+            class="form-element"
+          />
+          <label for="gender" class="form-element"> Gender:</label>
+          <input type="radio" name="gender" id="male" class="form-element" />
+          <label for="male" class="form-element">Male</label>
+          <input type="radio" name="gender" id="female" class="form-element" />
+          <label for="female" class="form-element">Female</label>
+          <input type="radio" name="gender" id="other" class="form-element" />
+          <label for="other" class="form-element">Other</label>
+          <input
+            type="checkbox"
+            name="Acknoledgement"
+            id="Acknoledgement"
+            class="form-element"
+          />
+          <label for="Acknoledgement" class="form-element"
+            >Are you a professional gamer
+          </label>
+          <input type="checkbox" name="t&c" id="t&c" class="form-element" />
+          <label for="t&c" class="form-element"
             >I accept all the Terms and conditions written in
             <a href=""> privacy policy</a></label
           >
         </form>
       </div>
+      class="form-element"
       <footer></footer>
     </div>
   </body>
