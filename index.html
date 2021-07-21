@@ -41,6 +41,7 @@
             id="f-name"
             class="form-element"
             placeholder="First Name"
+            autofocus
           />
           <label for="l-name" class="form-element"> Last Name</label>
           <input
@@ -94,15 +95,27 @@
             </label>
           </div>
           <div class="box box3">
+            <label for="description" class="form-element"
+              >Describe your experience in BGMI
+            </label>
+            <textarea
+              name="description"
+              id="description"
+              class="form-element"
+              placeholder="Describe here"
+            ></textarea>
+          </div>
+          <div class="box box4">
             <input type="checkbox" name="t-c" id="t-c" class="form-element" />
             <label for="t-c" class="form-element"
               >I accept all the Terms and conditions written in
               <a href=""> privacy policy</a></label
             >
           </div>
+          <input type="submit" value="Submit" id="submit-btn" />
         </form>
       </div>
-      <footer></footer>
+      <footer>Copyright&#169; SJGamer 2020-21</footer>
     </div>
   </body>
 </html>

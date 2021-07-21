@@ -5,6 +5,7 @@
   color: white;
   overflow: hidden;
   font-family: "Varela Round", sans-serif;
+  user-select: none;
 }
 .container {
   background: url(/img/pexels-lucie-liz-3165335.jpg),
@@ -71,6 +72,7 @@ input {
 #age {
   height: 2.5em;
   padding: 5px 10px;
+  border-radius: 5px;
 }
 #f-name,
 #l-name,
@@ -78,6 +80,8 @@ input {
   width: 60em;
   height: 2.5em;
   padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
 }
 label {
   color: white;
@@ -97,10 +101,37 @@ label {
   margin-right: 8px;
 }
 .box-2,
-.box-3 {
+.box-4 {
   flex-wrap: nowrap;
 }
 #Acknoledgement,
 #t-c {
   margin-right: 8px;
+}
+textarea {
+  width: 60em;
+  height: 20em;
+  padding: 5px 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  padding-top: 8px;
+  border-radius: 5px;
+}
+#submit-btn {
+  height: 2.5em;
+  width: 8em;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+input:active {
+  border: none;
+  outline: none;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 }
