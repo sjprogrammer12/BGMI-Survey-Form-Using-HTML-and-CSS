@@ -42,6 +42,7 @@
             class="form-element"
             placeholder="First Name"
             autofocus
+            required
           />
           <label for="l-name" class="form-element"> Last Name</label>
           <input
@@ -50,6 +51,7 @@
             id="l-name"
             class="form-element"
             placeholder="Last Name"
+            required
           />
           <label for="u-name" class="form-element"> Username</label>
           <input
@@ -58,6 +60,7 @@
             id="u-name"
             class="form-element"
             placeholder="Your Username"
+            required
           />
           <label for="age" class="form-element"> Age</label>
           <input
@@ -68,19 +71,27 @@
             max="90"
             class="form-element"
             placeholder="Age"
+            required
           />
           <div class="box box1">
-            <label for="gender" class="form-element"> Gender:</label>
+            <label for="gender" class="form-element" required> Gender:</label>
             <input type="radio" name="gender" id="male" class="form-element" />
-            <label for="male" class="form-element">Male</label>
+            <label for="male" class="form-element" required>Male</label>
             <input
               type="radio"
               name="gender"
               id="female"
               class="form-element"
+              required
             />
-            <label for="female" class="form-element">Female</label>
-            <input type="radio" name="gender" id="other" class="form-element" />
+            <label for="female" class="form-element" required>Female</label>
+            <input
+              type="radio"
+              name="gender"
+              id="other"
+              class="form-element"
+              required
+            />
             <label for="other" class="form-element">Other</label>
           </div>
           <div class="box box2">
@@ -89,13 +100,14 @@
               name="Acknoledgement"
               id="Acknoledgement"
               class="form-element"
+              required
             />
             <label for="Acknoledgement" class="form-element"
               >Are you a professional gamer
             </label>
           </div>
           <div class="box box3">
-            <label for="description" class="form-element"
+            <label for="description" class="form-element" required
               >Describe your experience in BGMI
             </label>
             <textarea
@@ -103,10 +115,17 @@
               id="description"
               class="form-element"
               placeholder="Describe here"
+              required
             ></textarea>
           </div>
           <div class="box box4">
-            <input type="checkbox" name="t-c" id="t-c" class="form-element" />
+            <input
+              required
+              type="checkbox"
+              name="t-c"
+              id="t-c"
+              class="form-element"
+            />
             <label for="t-c" class="form-element"
               >I accept all the Terms and conditions written in
               <a href=""> privacy policy</a></label
